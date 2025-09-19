@@ -6,19 +6,20 @@
 .FormModal {
     display: flex;
     flex-direction: column;
-    background-color: rgb(57, 121, 216);
+    background-color: white;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     width: 300px;
+    text-align: center;
+    box-shadow: rgb(57, 121, 216) -1px 1px 9px 0px;
 }
 
-.FormModal label {
+label {
     margin-bottom: 10px;
     font-weight: bold;
-    color: white;
+    color: black;
     font-size: 16px;
-    text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -56,13 +57,21 @@
 }
 
 .buttonCancel {
-    background-color: rgb(206, 0, 0);
+    background-color: grey;
     color: rgb(255, 255, 255);
 }
 
+.buttonCancel:hover  {
+    background-color: rgb(192, 65, 65);
+}
+
 .buttonSubmit {
-    background-color: rgb(10, 117, 0);
+    background-color: rgb(57, 121, 216);
     color: rgb(255, 255, 255);
+}
+
+.buttonSubmit:hover {
+    box-shadow: rgb(37, 87, 155) -1px 1px 9px 0px;
 }
 
 
